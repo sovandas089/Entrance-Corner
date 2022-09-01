@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>Entrance_Corner</title>
+
+    <!--to link with CSS File-->
+    <link rel="stylesheet" type="text/css" href="Style.css" media="screen" title="style (screen)" />
+    <!--For Logo-->
+    <script src="https://kit.fontawesome.com/2a73973015.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+
+    <div class="main">
+        <nav>
+
+
+            <div class="logo">
+                <img src="1653062172723.png" alt="hdwalls" height="70" width="50">
+                <!-- <h1><i style="color: white;">..</i> <i style="color: rgb(245, 6, 6);">Entrance Corner</i></h1>-->
+                <!--<img align="left" src="/home/anonymous/HTML/Entrance Corner/imgs/1653062172723.png" alt="hdwalls" width="">-->
+
+
+            </div>
+            <!--bottons-->
+            <div class="nav-links">
+                <ul>
+                    <!-- <li>
+                        <h3><a href="#">𝑯𝒐𝒎𝒆&nbsp;&nbsp;</a></h3>
+                    </li>
+                    <li>
+                        <h3><a href="#">𝑹𝒆𝒈𝒊𝒔𝒕𝒓𝒂𝒕𝒊𝒐𝒏&nbsp;&nbsp;</a></h3>
+                    </li>-->
+                    <li>
+                        <h3><a href="Services.html">sᴇʀᴠɪᴄᴇs &nbsp; &nbsp;</a></h3>
+                    </li>
+                    <li>
+                        <h3><a href="Founder.html">ᴄᴏɴᴛᴀᴄᴛ &nbsp; &nbsp;</a></h3>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+
+        <div class="information">
+            <div class="overlay"></div>
+            <img src="1652722541757.png" class="mobile">
+            <div id="circle">
+
+
+
+                <div class="feature one ">
+                    <i style="color: white; font-size: 40px;" class="fa-solid fa-user-tie"></i>
+                    <div>
+                        <h2 style="color: white"><a style="color: white;" href="Founder.html">.ғᴏᴜɴᴅᴇʀ. </a></h2>
+                        <p1 style="color: white;"><a style="color: white;" href="Founder.html">ᴍʀ.sᴏᴠᴀɴ ᴅᴀs</a> </p1>
+                    </div>
+                </div>
+
+                <div class="feature two">
+                    <i style="color: white; font-size: 40px;" class="fa-solid fa-code"></i>
+                    <div>
+                        <h2 style="color: rgb(255, 253, 251);"><a style="color: white;" href="Services.html">ᴘʀᴏɢʀᴀᴍᴍɪɴɢ ʟᴀɴɢᴜᴀɢᴇ</a></h2>
+                        <p1 style="color: white">
+                            <a style="color: white;" href="#"></a>
+                        </p1>
+                    </div>
+                </div>
+
+
+
+
+                <div class="feature three">
+                    <i style="color: white; font-size: 40px;" class="fa-solid fa-hat-cowboy"></i>
+                    <div>
+                        <h2 style="color: rgb(252, 251, 249);"><a style="color: white;" href="Services.html">ʜᴀᴄᴋɪɴɢ & ᴘᴇɴ ᴛᴇsᴛɪɴɢ</a></h2>
+                        <p1 style="color: white;">
+                            <a style="color: white;" href="#"></a>
+                        </p1>
+                    </div>
+                </div>
+
+                <div class="feature four">
+                    <i style="color: white; font-size: 40px;" class="fa-solid fa-network-wired"></i>
+                    <div>
+                        <h2 style="color: rgb(252, 251, 249);"><a style="color: white;" href="Services.html">ᴄᴏᴍᴘᴜᴛᴇʀ ɴᴇᴛᴡᴏʀᴋɪɴɢ</a></h2>
+                        <p1 style="color: white;"></p1>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <div class="controls">
+        <img src="uppppp" id="upBtn">
+        <h2>ғᴇᴀᴛᴜʀᴇ</h2>
+        <img src="uppppp" id="downBtn">
+    </div>
+
+    </div>
+
+    <script>
+        var circle = document.getElementById("circle");
+        var upBtn = document.getElementById("upBtn");
+        var downBtn = document.getElementById("downBtn");
+
+
+        var rotateValue = circle.style.transform;
+        var rotateSum;
+
+        upBtn.onclick = function() {
+            rotateSum = rotateValue + "rotate(-90deg)";
+            circle.style.transform = rotateSum;
+            rotateValue = rotateSum;
+        }
+
+        downBtn.onclick = function() {
+            rotateSum = rotateValue + "rotate(90deg)";
+            circle.style.transform = rotateSum;
+            rotateValue = rotateSum;
+        }
+
+        $(window).load(function() {
+            if (sceer.width <= 699) {
+                document.location = "http://m.cataliss.com"
+            }
+        });
+    </script>
+
+</body>
+
+</html>
